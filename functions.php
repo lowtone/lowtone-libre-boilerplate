@@ -21,9 +21,13 @@ namespace lowtone\libre\lowtone {
 			Theme::INIT_PACKAGES => array("lowtone", "lowtone\\style"),
 			Theme::INIT_SUCCESS => function() {
 
-				// Enqueue styles
-				
-				wp_enqueue_style("lowtone_style_grid");
+				if (!is_admin()) {
+
+					// Enqueue styles
+					
+					wp_enqueue_style("lowtone_style_grid");
+					
+				}
 
 				return true;
 			},

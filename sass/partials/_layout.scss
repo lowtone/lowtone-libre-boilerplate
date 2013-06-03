@@ -8,7 +8,17 @@
  * @version 1.0
  */
 
+@import "clear";
+
 .container {
 	margin: 0 auto;
 	width: $default_width;
 }
+
+.clearfix {
+	@include clear;
+}
+
+@import "layout/menu";
+@import "layout/posts";
+@import "layout/pagination";
