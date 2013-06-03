@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/*!
+ * Theme name: Lowtone Default Theme
+ * Theme URI: http://wordpress.lowtone.nl/libre-lowtone/
+ * Description: Boiler plate template.
+ * Author: Lowtone <info@lowtone.nl>
+ * Author URI: http://lowtone.nl
+ * Version: 1.0
+ * Tags: Libre, Custom, Responsive
+ * License: 
+ * License URI: http://wordpress.com/license
+ * Template: lowtone-libre
+ * Menus: Main, Side
+ */
+/**
+ * @author Paul van der Meijs <code@lowtone.nl>
+ * @copyright Copyright (c) 2013, Paul van der Meijs
+ * @license http://wordpress.lowtone.nl/license/
+ * @version 1.0
+ */
+
+// Defaults 
+
+@import "partials/defaults";
+
+@import "compass/css3";
+
+@import "partials/basics";
+
+@import "partials/layout";

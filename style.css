@@ -1,0 +1,13 @@
+@charset "UTF-8";/*
+ * Theme name: Lowtone Default Theme
+ * Theme URI: http://wordpress.lowtone.nl/libre-lowtone/
+ * Description: Boiler plate template.
+ * Author: Lowtone <info@lowtone.nl>
+ * Author URI: http://lowtone.nl
+ * Version: 1.0
+ * Tags: Libre, Custom, Responsive
+ * License: 
+ * License URI: http://wordpress.com/license
+ * Template: lowtone-libre
+ * Menus: Main, Side
+ */html,body{margin:0;padding:0;background-color:transparent;color:#000;font-family:Arial,sans-serif;font-size:16px}html{height:100%}body{min-height:100%}.container{margin:0 auto;width:960px}

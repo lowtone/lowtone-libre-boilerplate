@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+// Fonts
+
+$default_font: Arial, sans-serif;
+$default_font_size: 16px;
+
+// Colors
+
+$light_color: #fff;
+$dark_color: #000;
+
+$light_grey: #efefef;
+$dark_grey: #333;
+
+// Color classes
+
+$true_color: #cae3ab;  // Green
+$false_color: #db9494; // Red
+
+$foreground_color: $dark_color;
+$background_color: transparent;
+
+// Size
+
+$default_width: 960px;

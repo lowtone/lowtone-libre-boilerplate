@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/**
+ * Basic HTML styles.
+ * 
+ * @author Paul van der Meijs <code@lowtone.nl>
+ * @copyright Copyright (c) 2013, Paul van der Meijs
+ * @license http://wordpress.lowtone.nl/license/
+ * @version 1.0
+ */
+
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: $background_color;
+	color: $foreground_color;
+	font: {
+		family: $default_font;
+		size: $default_font_size;
+	}
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+}
