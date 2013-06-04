@@ -19,6 +19,19 @@
 	@include clear;
 }
 
+#body .container {
+	padding-bottom: 3em;
+}
+
 @import "layout/menu";
 @import "layout/posts";
 @import "layout/pagination";
+@import "layout/widgets";
+
+// Footer
+
+#sidebar-6 {
+	font-size: .875em;
+	padding: 2em 0;
+	text-align: center;
+}

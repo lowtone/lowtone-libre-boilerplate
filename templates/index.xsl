@@ -3,6 +3,7 @@
 	@author Paul van der Meijs <code@paulvandermeijs.nl>
 	@copyright Copyright (c) 2013, Paul van der Meijs
 	@version 1.0
+	@name Main template
  -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:import href="../../lowtone-libre/templates/index.xsl" />
@@ -30,6 +31,26 @@
 				</xsl:apply-templates>
 			</div>
 		</header>
+	</xsl:template>
+
+
+	<!-- Body > Added front page sidebar -->
+
+	<xsl:template name="body">
+		<div id="body">
+			<div class="container clearfix">
+				<xsl:apply-templates select="sidebars/sidebar[@id='front_page']">
+					<xsl:with-param name="width">one-whole</xsl:with-param>
+				</xsl:apply-templates>
+				<xsl:call-template name="_body_columns" />
+			</div>
+		</div>
+	</xsl:template>
+
+
+	<xsl:template name="_body_columns">
+		<xsl:call-template name="main" />
+		<xsl:call-template name="side" />
 	</xsl:template>
 
 

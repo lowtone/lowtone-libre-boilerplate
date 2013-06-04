@@ -6,7 +6,7 @@
  * @version 1.0
  */
 
-namespace lowtone\libre\lowtone {
+namespace lowtone\libre\boilerplate {
 
 	use lowtone\content\packages\themes\Theme;
 
