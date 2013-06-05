@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+p.read_more {
+	text-align: right;
+}
+
+a.read_more {
+	white-space: nowrap;
+
+	&:after {
+		margin-left: .5em;
+		content: "\2192";
+	}
+}

@@ -12,7 +12,7 @@
 
 .container {
 	margin: 0 auto;
-	width: $default_width;
+	width: $default_container_width;
 }
 
 .clearfix {
@@ -26,6 +26,7 @@
 @import "layout/menu";
 @import "layout/posts";
 @import "layout/pagination";
+@import "layout/readmore";
 @import "layout/widgets";
 
 // Footer

@@ -31,4 +31,9 @@ $background_color: transparent;
 
 // Size
 
-$default_width: 960px;
+$default_container_width: 960px;
+
+// Media sizes
+
+$lap_min_width: 480px;
+$desk_min_width: 1024px;

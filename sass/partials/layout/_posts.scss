@@ -75,6 +75,14 @@
 		}
 	}
 
+	// Extra fields
+	
+	.custom-fields {
+		&.empty {
+			display: none;
+		}
+	}
+
 	// Adjacent post navigation
 
 	.adjacent {

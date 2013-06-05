@@ -22,6 +22,18 @@
  * @version 1.0
  */
 
+// Config
+
+/**
+ * Dropdown menus
+ *
+ * Provide a comma separated list of menu names to display their submenus as 
+ * dropdowns.
+ *
+ * Example: $dropdown_menus: "main", "side";
+ */
+$dropdown_menus: "main", "side";
+
 // Defaults 
 
 @import "partials/defaults";
