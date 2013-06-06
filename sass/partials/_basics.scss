@@ -28,5 +28,26 @@ body {
 }
 
 img {
+	border: none;
 	max-width: 100%;
 }
+
+label {
+	float: left;
+	width: 30%;
+
+	& + input,
+		& + textarea {
+			vertical-align: top;
+			width: 60%;
+		}
+}
+
+input[type="text"],
+	input[type="password"],
+	textarea {
+		font: {
+			family: $default_font;
+			size: $default_font_size;
+		}
+	}

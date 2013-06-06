@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+@import "rulers";
+
+
+.comment {
+	fieldset {
+		border: none;
+	}
+
+	legend {
+		@include line;
+	}
+}
